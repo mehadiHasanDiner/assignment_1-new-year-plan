@@ -140,8 +140,7 @@ ul li:before {
 /* call now */
 
 .contact {
-    background-image: url(../assets/images/watch.png), url(../assets/images/gradient1.png
-    );
+    background-image: url(../assets/images/watch.png);
     height: 250px;
     display: flex;
     margin: 50px 150px;
