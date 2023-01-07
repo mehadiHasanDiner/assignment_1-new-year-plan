@@ -9,7 +9,7 @@
 }
 
 .container{
-    background-image: url(/assets/images/banner3.png);
+    background-image: url(../assets/images/banner3.png);
     background-repeat: no-repeat; 
     background-size: cover;
     background-position:center;    
@@ -140,7 +140,8 @@ ul li:before {
 /* call now */
 
 .contact {
-    background-image: url(/assets/images/watch.png), url(/assets/images/gradient1.png);
+    background-image: url(../assets/images/watch.png), url(../assets/images/gradient1.png
+    );
     height: 250px;
     display: flex;
     margin: 50px 150px;
