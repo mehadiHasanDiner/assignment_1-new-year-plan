@@ -104,7 +104,6 @@ ul li:before {
     font-weight: 700;
     padding-bottom: 20px;
     text-align: center;
-
 }
 
 .plan-section{
@@ -162,4 +161,95 @@ ul li:before {
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 20px;
+}
+
+/* future  */
+
+.future-section{
+    display: flex;
+    gap: 250px;
+    background-color: black;
+    color: white;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 125px;
+}
+
+.future-container{
+    line-height: 30px;
+}
+
+.future-title {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.subscirbe-panel{
+    text-align: left;
+    line-height: 40px;
+    padding-right: 100px;
+}
+
+.subscribe-panel, input{
+    padding: 20px 50px;
+    font-size: 20px;
+    margin: 20px 0;
+    background:none;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+
+}
+
+.btn-subscribe {
+    color: white;
+    background-color: #005FAC;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+/* table design */
+.routine-section{
+    margin:50px 125px;
+    background-color: rgba(125, 212, 253, 0.575);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.routine-section table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.routine-section table tr td{
+    border: 1px solid;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.routine-section table tr th {
+    border: 1px solid;
+    text-align: center;
+    padding: 5px;
+    background: rgba(0, 197, 171, 0.904);
+
+}
+
+.routine-section table caption {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.routine-section table tr:nth-child(odd) {
+    background-color: rgba(143, 220, 240, 0.904);
 }
